@@ -13,6 +13,8 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+```cmd
 mkdir epic-nfts
 cd epic-nfts
 npm init -y
@@ -21,3 +23,4 @@ npx hardhat
 npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
 npm install @openzeppelin/contracts
 npx hardhat run scripts/sample-script.js
+```
