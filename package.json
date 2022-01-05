@@ -19,6 +19,7 @@
   "homepage": "https://github.com/KKOO727/epic-NFTs-buildspace#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "chai": "^4.3.4",
     "ethereum-waffle": "^3.4.0",
@@ -26,6 +27,7 @@
     "hardhat": "^2.8.0"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.4.1"
+    "@openzeppelin/contracts": "^4.4.1",
+    "dotenv": "^10.0.0"
   }
 }
